@@ -1,0 +1,27 @@
+html, body, div, p,
+a, img, i,form, label, 
+footer, header, nav, 
+output, section, button, ul, li,
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+		box-sizing: border-box;
+}
+footer, header, nav, section {
+    display: block;
+}
+html {
+    height: 100%;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+a {
+    text-decoration: none;
+}
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/fontello.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+
+
+
+    <button class="open-menu none" id="open-menu">открыть меню</button>
+
+
+    <div class="container">
+      <aside id="menu">
+        <button class="close-menu none" id="close-menu">
+          <span class="cross"></span>
+        </button>
+        <ul class="menu-list">
+          <li class="menu-list__item menu-list__item-active" id="menu-item">
+            <div class="menu-list__item__inner">
+              <img class="icon" src="./img/icons-food/icon-pizza.png" alt="" />
+              <p href="./pizza.html" class="name">Пицца</p>
+            </div>
+          </li>
+
+          <li class="menu-list__item" id="menu-item">
+            <div class="menu-list__item__inner">
+            <img class="icon" src="./img/icons-food/icon-sushi.png" alt="" />
+            <p class="name">Суши</p></div>
+          </li>
+
+          <li class="menu-list__item" id="menu-item">
+            <div class="menu-list__item__inner">
+            <img class="icon" src="./img/icons-food/icon-drink.png" alt="" />
+            <p class="name">Напитки</p></div>
+          </li>
+
+          <li class="menu-list__item" id="menu-item">
+            <div class="menu-list__item__inner">
+            <img class="icon" src="./img/icons-food/icon-desert.png" alt="" />
+            <p class="name">Дессерты</p></div>
+          </li>
+          <li class="menu-list__item" id="menu-item">
+            <div class="menu-list__item__inner">
+            <img class="icon" src="./img/icons-food/icon-sauce.png" alt="" />
+            <p class="name">Соусы</p></div>
+          </li>
+        </ul>
+      </aside>
+
+      <main>
+        <ul class="products-list" id="products-list">
+        </ul>
+      </main>
+    </div>
+
+
+
+		<script src="./js/addHeader.js"></script>
+		<script src="./js/renderjson.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
